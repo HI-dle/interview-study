@@ -4,7 +4,7 @@
 ## 발표 자료
 | 날짜         | 링크                                                                             | 발표자  |
 |------------|:-------------------------------------------------------------------------------|:-----|
-| 2025.05.13 | [20250513_오프셋 기반 페이징의 한계와 커서기반 페이징](https://github.com/HI-dle/interview-study) | 강혜주  |
+| 2025.05.13 | [20250513_오프셋 기반 페이징의 한계와 커서기반 페이징](https://github.com/HI-dle/interview-study/blob/main/%EA%B0%95%ED%98%9C%EC%A3%BC/20250513_%EC%98%A4%ED%94%84%EC%85%8B%20%EA%B8%B0%EB%B0%98%20%ED%8E%98%EC%9D%B4%EC%A7%95%EC%9D%98%20%ED%95%9C%EA%B3%84%EC%99%80%20%EC%BB%A4%EC%84%9C%EA%B8%B0%EB%B0%98%20%ED%8E%98%EC%9D%B4%EC%A7%95.md) | 강혜주  |
 | 2025.05.13 | [제목](https://github.com/HI-dle/interview-study)                                | 박지은  |
 | 2025.05.13 | [제목](https://github.com/HI-dle/interview-study)                                | 최진영  |
 | 2025.05.13 | [제목](https://github.com/HI-dle/interview-study)                                | 한지훈  |
