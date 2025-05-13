@@ -8,7 +8,7 @@
 | 2025.05.13 | [제목](https://github.com/HI-dle/interview-study)                                | 박지은  |
 | 2025.05.13 | [20250513_JWT_발급과_JWT_검증_과정](https://github.com/HI-dle/interview-study/blob/main/%EC%B5%9C%EC%A7%84%EC%98%81/20250513_JWT_%EB%B0%9C%EA%B8%89%EA%B3%BC_JWT_%EA%B2%80%EC%A6%9D_%EA%B3%BC%EC%A0%95.md)                                | 최진영  |
 | 2025.05.13 | [20250513 spring 요청처리 흐름과 흐름에 따른 에러처리 문제](https://github.com/HI-dle/interview-study/blob/main/%ED%95%9C%EC%A7%80%ED%9B%88/spring%20%EC%9A%94%EC%B2%AD%EC%B2%98%EB%A6%AC%20%ED%9D%90%EB%A6%84%EA%B3%BC%20%ED%9D%90%EB%A6%84%EC%97%90%20%EB%94%B0%EB%A5%B8%20%EC%97%90%EB%9F%AC%EC%B2%98%EB%A6%AC%20%EB%AC%B8%EC%A0%9C.md)                                | 한지훈  |
-| 2025.05.13 | [제목](https://github.com/HI-dle/interview-study)                                | 황하온  |
+| 2025.05.13 | [20250513_우아한redis](https://github.com/HI-dle/interview-study/blob/main/%20%ED%99%A9%ED%95%98%EC%98%A8/20250513_%EC%9A%B0%EC%95%84%ED%95%9Credis.md)                                | 황하온  |
 
 ## 📜 진행방식
 - 일정 : 2025. 05. 13(화) ~
