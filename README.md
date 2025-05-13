@@ -6,7 +6,7 @@
 |------------|:-------------------------------------------------------------------------------|:-----|
 | 2025.05.13 | [20250513_오프셋 기반 페이징의 한계와 커서기반 페이징](https://github.com/HI-dle/interview-study/blob/main/%EA%B0%95%ED%98%9C%EC%A3%BC/20250513_%EC%98%A4%ED%94%84%EC%85%8B%20%EA%B8%B0%EB%B0%98%20%ED%8E%98%EC%9D%B4%EC%A7%95%EC%9D%98%20%ED%95%9C%EA%B3%84%EC%99%80%20%EC%BB%A4%EC%84%9C%EA%B8%B0%EB%B0%98%20%ED%8E%98%EC%9D%B4%EC%A7%95.md) | 강혜주  |
 | 2025.05.13 | [제목](https://github.com/HI-dle/interview-study)                                | 박지은  |
-| 2025.05.13 | [제목](https://github.com/HI-dle/interview-study)                                | 최진영  |
+| 2025.05.13 | [20250513_JWT_발급과_JWT_검증_과정](https://github.com/HI-dle/interview-study/blob/main/%EC%B5%9C%EC%A7%84%EC%98%81/20250513_JWT_%EB%B0%9C%EA%B8%89%EA%B3%BC_JWT_%EA%B2%80%EC%A6%9D_%EA%B3%BC%EC%A0%95.md)                                | 최진영  |
 | 2025.05.13 | [20250513 spring 요청처리 흐름과 흐름에 따른 에러처리 문제](https://github.com/HI-dle/interview-study/blob/main/%ED%95%9C%EC%A7%80%ED%9B%88/spring%20%EC%9A%94%EC%B2%AD%EC%B2%98%EB%A6%AC%20%ED%9D%90%EB%A6%84%EA%B3%BC%20%ED%9D%90%EB%A6%84%EC%97%90%20%EB%94%B0%EB%A5%B8%20%EC%97%90%EB%9F%AC%EC%B2%98%EB%A6%AC%20%EB%AC%B8%EC%A0%9C.md)                                | 한지훈  |
 | 2025.05.13 | [제목](https://github.com/HI-dle/interview-study)                                | 황하온  |
 
