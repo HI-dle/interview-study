@@ -18,15 +18,15 @@ Zipkin은 brave 기반이기 때문에, `micrometer-tracing-brave` 라이브러�
 `otlp`가 OpenTelemetry라는 것을 알게되었고, 최근에 떠오르는 프레임워크이자, 표준화됨을 확인할 수 있었다.
 
 > 💡 OpenTelemetry가 무엇인가?
-> OpenTelemetry를 한 줄로 정의하자면, 분산 시스템에서 로그, 트레이스, 메트릭을 수집하고 내보내기 위한 표준화된 > SDK + Collector를 제공하는 오픈소스 프로젝트이다.
-
-![alt text](images/image.png)
+> OpenTelemetry를 한 줄로 정의하자면, 분산 시스템에서 로그, 트레이스, 메트릭을 수집하고 내보내기 위한 표준화된 SDK + Collector를 제공하는 오픈소스 프로젝트이다.
 
 결론은 brave 대신 OpenTelemetry를 선택했고, 이유는 다음과 같다.
 - OpenTelemetry가 CNCF에서 표준으로 자리 잡음
 - 많은 관측 도구(Tempo, Loki, Prometheus 등)들이 OpenTelemetry Protocol(OTLP)을 따르는 추세이고, otlp를 지원하도록 지속적으로 개발되어 가고 있음
 - OpenTelemetry 기반으로 진행하면 관측 도구 변경이 보다 자유로움(벤더에 종속적이지 않음)
 - 표준화된 기술 스택을 좆고 싶은 마음도 존재
+
+![alt text](images/image.png)
 
 OpenTelemetry를 선택하게 되면서 대중적인 micrometer-brave + Zipkin을 고수할 필요가 없어졌고, 다른 분산 추적 도구를 고려하게 되었다. 그것이 Tempo였는데, 로그 수집 도구로 Loki를 선택하게 되면서 Grafana UI로 시각화를 하게 되었는데, Tempo를 선택하게 되면 로그, 트레이스를 한 눈에 볼 수 있다는 장점이 생겼다.
 
@@ -118,7 +118,7 @@ service:
       exporters: [prometheusremotewrite]
 ```
 
-### 2-3 프로메테우스의 pull/push 방식
+### 2-3 프로메테우스의 pull/push 방식 고민과 선택
 프로메테우스에 메트릭을 수집하는 방법은 두가지로 나뉘었다. 프로메테우스가 우리 애플리케이션에서 직접 스크래핑해가는 `pull` 방식과, Otel-Collector에서 프로메테우스로 데이터를 보내는 `push` 방식이다.
 
 두 가지 방법 중에 `push` 방식을 선택했는데 프로메테우스 래퍼런스를 참고한 결과 `pull` 방식은 OTLP receiver가 여러 인스턴스일 때, 메트릭의 방대한 양에 의한 스파이크가 존재할 수 있다는 단점이 존재하기 때문이었다.
