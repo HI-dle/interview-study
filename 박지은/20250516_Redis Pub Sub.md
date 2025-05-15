@@ -1,3 +1,12 @@
+> 목차
+> 
+> - [pub/sub(publish/subscribe) 개념 알아보기](https://github.com/HI-dle/interview-study/blob/main/%EB%B0%95%EC%A7%80%EC%9D%80/20250516_Redis%20Pub%20Sub.md#pubsubpublishsubscribe-%EA%B0%9C%EB%85%90-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0)
+>   - [Pub/Sub 패턴 사용하기 위한 네 가지 개념](https://github.com/HI-dle/interview-study/blob/main/%EB%B0%95%EC%A7%80%EC%9D%80/20250516_Redis%20Pub%20Sub.md#pubsub-%ED%8C%A8%ED%84%B4-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0-%EC%9C%84%ED%95%9C-%EB%84%A4-%EA%B0%80%EC%A7%80-%EA%B0%9C%EB%85%90)
+>   - [vs 메시지 큐](https://github.com/HI-dle/interview-study/blob/main/%EB%B0%95%EC%A7%80%EC%9D%80/20250516_Redis%20Pub%20Sub.md#vs-%EB%A9%94%EC%8B%9C%EC%A7%80-%ED%81%90)
+>   - [vs Observer(관찰자) Pattern](https://github.com/HI-dle/interview-study/blob/main/%EB%B0%95%EC%A7%80%EC%9D%80/20250516_Redis%20Pub%20Sub.md#vs-observer%EA%B4%80%EC%B0%B0%EC%9E%90-pattern)
+> - [Redis의 Pub/Sub](https://github.com/HI-dle/interview-study/blob/main/%EB%B0%95%EC%A7%80%EC%9D%80/20250516_Redis%20Pub%20Sub.md#redis%EC%9D%98-pubsub)
+> - [Redisson](https://github.com/HI-dle/interview-study/blob/main/%EB%B0%95%EC%A7%80%EC%9D%80/20250516_Redis%20Pub%20Sub.md#redisson)
+
 # Redis Pub/Sub
 
 > RedissonLock 에서는 Pub/Sub 개념을 사용한다. 
