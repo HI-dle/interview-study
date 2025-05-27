@@ -37,7 +37,7 @@ MSA 환경에서는 각 서비스가 독립적인 데이터베이스를 사용�
 1. **특정 허브의 재고는 차감되었지만 주문이 실패**하는 경우 (롤백 필요)
 2. **네트워크 장애로 인한 응답 손실**
     - 주문 서비스에서 확정 요청을 보냈지만 재고 서비스가 받지 못한 경우 (타임아웃 예외. 정상동작)
-    - 재고 서비스에서 차감 성공 응답을 보냈지만 주문 서비스가 받지 못한 경우
+    - 재고 서비스에서 차감 성공 응답을 보냈지만 주문 서비스가 받지 못한 경우 (재고는 차감되었는데 주문서비스가 죽어버린경우)
 3. **중복 요청으로 인한 동일 허브 재고 과다 차감** (타임아웃 → 재시도를 주문 서비스에서 수행한 경우)
     1. 해당 경우는 타임아웃으로 인해 요청을 보내두었지만 주문에서 실패한것으로 보고 요청을 재시도 한경우, 그 사이에 재고는 차감된 경우이다.
 
@@ -97,12 +97,12 @@ CREATE TABLE redemption (
 ```java
 @Transactional
 public RedemptionResult reserveInventory(String orderId, Long productId, Long hubId, int quantity) {
-    // 1. 중복 요청 확인
+    // 1. 중복 요청 확인 
     if (redemptionRepository.existsByOrderId(orderId)) {
         return RedemptionResult.ALREADY_PROCESSED;
     }
     
-    // 2. 재고 확인 및 차감 (복합키로 조회)
+    // 2. 재고 확인 및 차감 (복합키로 조회) , 기본적으로 락이 걸려있다고 가정
     Inventory inventory = inventoryRepository.findByProductIdAndHubId(productId, hubId);
     if (inventory == null || inventory.getQuantity() < quantity) {
         return RedemptionResult.INSUFFICIENT_INVENTORY;
@@ -160,7 +160,7 @@ public void abortRedemption(String orderId) {
         .orElseThrow(() -> new RedemptionNotFoundException(orderId));
     
     if (redemption.getStatus() != RedemptionStatus.PREPARE) {
-        return; // 이미 처리됨
+        return; // 이미 처리됨 (commit, abort 인 경우)
     }
     
     // 재고 복원 (복합키로 조회)
@@ -198,26 +198,50 @@ public void processExpiredRedemptions() {
 
 ## 시퀀스 다이어그램
 
-```
-Client -> Order Service -> Inventory Service -> Database
+```mermaid
+sequenceDiagram
+    participant C as Client
+    participant OS as Order Service
+    participant IS as Inventory Service
+    participant PS as Payment Service
+    participant DB as Database
 
-1. 주문 요청
-Client -> Order Service: POST /orders
+    Note over C, DB: 정상 처리 흐름
 
-2. 재고 선점
-Order Service -> Inventory Service: reserveInventory(orderId, productId, hubId, quantity)
-Inventory Service -> Database: 재고 차감 + Redemption INSERT (status=prepare)
+    C->>OS: POST /orders (주문 요청)
+    
+    OS->>IS: reserveInventory(orderId, productId, hubId, quantity)
+    IS->>DB: 재고 차감
+    IS->>DB: INSERT Redemption (status=prepare)
+    IS-->>OS: 재고 선점 완료
+    
+    OS->>PS: processPayment()
+    PS-->>OS: 결제 완료
+    
+    OS->>IS: commitRedemption(orderId)
+    IS->>DB: UPDATE redemption SET status='commit'
+    IS-->>OS: 주문 확정 완료
+    
+    OS-->>C: 주문 성공 응답
 
-3. 결제 처리
-Order Service -> Payment Service: processPayment()
-
-4. 주문 확정
-Order Service -> Inventory Service: commitRedemption(orderId)
-Inventory Service -> Database: UPDATE redemption SET status='commit'
-
-Alternative Flow (실패 시):
-Order Service -> Inventory Service: abortRedemption(orderId)
-Inventory Service -> Database: 재고 복원 + UPDATE redemption SET status='abort'
+    Note over C, DB: 실패 시 처리 흐름
+    
+    C->>OS: POST /orders (주문 요청)
+    
+    OS->>IS: reserveInventory(orderId, productId, hubId, quantity)
+    IS->>DB: 재고 차감
+    IS->>DB: INSERT Redemption (status=prepare)
+    IS-->>OS: 재고 선점 완료
+    
+    OS->>PS: processPayment()
+    PS-->>OS: 결제 실패 ❌
+    
+    OS->>IS: abortRedemption(orderId)
+    IS->>DB: 재고 복원
+    IS->>DB: UPDATE redemption SET status='abort'
+    IS-->>OS: 롤백 완료
+    
+    OS-->>C: 주문 실패 응답
 ```
 
 ## 실제 장애 시나리오와 대응 방안
@@ -279,11 +303,6 @@ Inventory Service -> Database: 재고 복원 + UPDATE redemption SET status='abo
 - **멱등성**: 동일한 `orderId`로 중복 요청 시 안전하게 처리
 - **자동 복구**: 타임아웃 기반 자동 롤백으로 장애 상황 대응
 - **상태 추적**: 모든 상태 변화를 기록하여 디버깅과 모니터링 용이
-
-### 확장성
-
-- **서비스 독립성**: 각 서비스가 독립적으로 배포 및 확장 가능
-- **2PC 불필요**: 무거운 분산 트랜잭션 프로토콜 없이도 일관성 보장
 
 ## 고려사항과 한계
 
