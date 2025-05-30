@@ -39,7 +39,7 @@
 | 2025.05.27 | []()                                                       | 최진영 |
 | 2025.05.27 | [20250526_DB_종류_특성_장단점](https://github.com/HI-dle/interview-study/blob/main/%ED%95%9C%EC%A7%80%ED%9B%88/20250526_DB_%EC%A2%85%EB%A5%98_%ED%8A%B9%EC%84%B1_%EC%9E%A5%EB%8B%A8%EC%A0%90.md)      | 한지훈 |
 | 2025.05.27 | [20250528_mongodb_start](https://github.com/HI-dle/interview-study/blob/main/%ED%99%A9%ED%95%98%EC%98%A8/20250528_mongodb_start.md)  | 황하온 |
-| 2025.05.30 | []()  | 강혜주 |
+| 2025.05.30 | [20250530_Kafka 에러 핸들링, Dlt](https://github.com/HI-dle/interview-study/blob/main/%EA%B0%95%ED%98%9C%EC%A3%BC/20250530_Kafka%20%EC%97%90%EB%9F%AC%20%ED%95%B8%EB%93%A4%EB%A7%81%2C%20Dlt.md)  | 강혜주 |
 | 2025.05.30 | []()  | 박지은 |
 | 2025.05.30 | []()  | 최진영 |
 | 2025.05.30 | []()  | 한지훈 |
