@@ -47,10 +47,10 @@ SAGA 패턴: 하나의 큰 트랜잭션을 여러 개의 작은 로컬 트랜잭
 
 - 성공
   
-  ![success](20250530_saga pattern/success.png)
+  ![success](20250530_sagapattern/success.png)
 - 실패
   
-  ![fail](20250530_saga pattern/fail.png)
+  ![fail](20250530_sagapattern/fail.png)
     - 실패 이벤트를 처리해주어야 한다.
 - 각 서비스의 로컬 트랜잭션을 순차적으로 처리한다.
 - SAGA 패턴의 핵심은 트랜잭션의 관리주체가 DBMS에 있는 것이 아닌 Application에 있다.
