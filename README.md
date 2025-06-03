@@ -11,7 +11,7 @@
 | 2025.06.   | []()                                                                                                              | 한지훈 |
 | 2025.06.   | [20250603_kafka_producer](https://github.com/HI-dle/interview-study/blob/main/%ED%99%A9%ED%95%98%EC%98%A8/20250603_kafka_producer.md)                | 황하온 |
 
-#### [5월 목차 링크크]()
+#### [5월 목차 링크](https://github.com/HI-dle/interview-study/blob/main/5%EC%9B%94_%EB%AA%A9%EC%B0%A8.md)
 
 
 ## 📜 진행방식
