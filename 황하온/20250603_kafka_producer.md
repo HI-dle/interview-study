@@ -167,3 +167,4 @@ isolation.level = read_committed
 - https://always-kimkim.tistory.com/entry/kafka101-producer
 - https://jinseong-dev.tistory.com/46
 - https://devidea.tistory.com/90
+- https://devidea.tistory.com/123
