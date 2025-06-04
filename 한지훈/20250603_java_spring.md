@@ -213,9 +213,3 @@ public class SerializeUtil {
      - serializable 추가
      - 멤버변수의 접근 지정자 변경
      - static 필드 → non static 필드 및 transient → non-transient로 변경 (필드 추가와 동일)
-   - 같은 클래스 버전으로 인식하는 경우
-     - 필드 제거
-     - 클래스 위치 변경
-     - static 필드 ← non static 필드 및 transient ← non-transient 로 변경
-     - 필드 타입 변경
-     - serializable 구현 제거
