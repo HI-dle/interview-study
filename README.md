@@ -3,13 +3,18 @@
 
 ## 발표 자료
 #### 6월
-| 날짜         | 링크                                                                                                                | 발표자 |
-|------------|:------------------------------------------------------------------------------------------------------------------|:----|
-| 2025.06.03 | [20250603_MVCC](https://github.com/HI-dle/interview-study/blob/main/%EA%B0%95%ED%98%9C%EC%A3%BC/20250603_MVCC.md) | 강혜주 |
-| 2025.06.03  | [20250603_Proxy와 runtime weaving](https://github.com/HI-dle/interview-study/blob/main/%EB%B0%95%EC%A7%80%EC%9D%80/20250603_Proxy%EC%99%80%20runtime%20weaving.md)                                                                                                                                                                                                                                                                                                                                                                        | 박지은  |
-| 2025.06.03 | [20250603_가비지_컬렉션](https://github.com/HI-dle/interview-study/blob/main/%EC%B5%9C%EC%A7%84%EC%98%81/20250603_%EA%B0%80%EB%B9%84%EC%A7%80_%EC%BB%AC%EB%A0%89%EC%85%98.md)                                                                                              | 최진영 |
-| 2025.06.   | [20250604_java_spring](https://github.com/HI-dle/interview-study/blob/main/%ED%95%9C%EC%A7%80%ED%9B%88/20250603_java_spring.md)                                                                                                              | 한지훈 |
-| 2025.06.   | [20250603_kafka_producer](https://github.com/HI-dle/interview-study/blob/main/%ED%99%A9%ED%95%98%EC%98%A8/20250603_kafka_producer.md)                | 황하온 |
+| 날짜         | 링크                                                                                                                                                                      | 발표자 |
+|------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----|
+| 2025.06.03 | [20250603_MVCC](https://github.com/HI-dle/interview-study/blob/main/%EA%B0%95%ED%98%9C%EC%A3%BC/20250603_MVCC.md)                                                       | 강혜주 |
+| 2025.06.03 | [20250603_Proxy와 runtime weaving](https://github.com/HI-dle/interview-study/blob/main/%EB%B0%95%EC%A7%80%EC%9D%80/20250603_Proxy%EC%99%80%20runtime%20weaving.md)       | 박지은  |
+| 2025.06.03 | [20250603_가비지_컬렉션](https://github.com/HI-dle/interview-study/blob/main/%EC%B5%9C%EC%A7%84%EC%98%81/20250603_%EA%B0%80%EB%B9%84%EC%A7%80_%EC%BB%AC%EB%A0%89%EC%85%98.md) | 최진영 |
+| 2025.06.03 | [20250604_java_spring](https://github.com/HI-dle/interview-study/blob/main/%ED%95%9C%EC%A7%80%ED%9B%88/20250603_java_spring.md)                                         | 한지훈 |
+| 2025.06.03 | [20250603_kafka_producer](https://github.com/HI-dle/interview-study/blob/main/%ED%99%A9%ED%95%98%EC%98%A8/20250603_kafka_producer.md)                                   | 황하온 |
+| 2025.06.06 | [20250606_Blocking vs Non-Blocking,  Sync vs Async](https://github.com/HI-dle/interview-study/blob/main/%EA%B0%95%ED%98%9C%EC%A3%BC/20250606_Blocking%20vs%20Non-Blocking%2C%20%20Sync%20vs%20Async.md)                                                                                                                                                                    | 강혜주 | 
+| 2025.06.06 |                                                                                                                                                                         | 최진영 |
+| 2025.06.06 | [20250606_Spring](https://github.com/HI-dle/interview-study/blob/main/%ED%95%9C%EC%A7%80%ED%9B%88/20250606_Spring.md)                                                   | 한지훈 |
+| 2025.06.06 |                                                                                                                                                                         | 황하온 |
+
 
 #### [5월 목차 링크](https://github.com/HI-dle/interview-study/blob/main/5%EC%9B%94_%EB%AA%A9%EC%B0%A8.md)
 
