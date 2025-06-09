@@ -329,7 +329,7 @@ public ProductDto getProduct(Long id) {
 - 트랜잭션 밖에서 지연 로딩된 엔티티에 접근하면 예외 발생
 - `@Transactional(readOnly = true)` 추가하거나 FETCH JOIN 사용
 
-
+---
 추가 참고 . JPA transactional 의 조회성능 저하 사례
 
 [카카오페이 온라인 결제에서 결정한 Transactional 사용 방식](https://tech.kakaopay.com/post/jpa-transactional-bri/#%EC%B9%B4%EC%B9%B4%EC%98%A4%ED%8E%98%EC%9D%B4-%EC%98%A8%EB%9D%BC%EC%9D%B8-%EA%B2%B0%EC%A0%9C%EC%97%90%EC%84%9C-%EA%B2%B0%EC%A0%95%ED%95%9C-transactional-%EC%82%AC%EC%9A%A9-%EB%B0%A9%EC%8B%9D)
