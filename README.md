@@ -18,7 +18,7 @@
 | 2025.06.10 |            | 박지은 |
 | 2025.06.10 |            | 최진영 |
 | 2025.06.10 |            | 한지훈 |
-| 2025.06.10 | [20250606_kafka_consumer2](https://github.com/HI-dle/interview-study/blob/main/%ED%99%A9%ED%95%98%EC%98%A8/20250610_kafka_consumer2.md)            | 황하온 |
+| 2025.06.10 | [20250610_kafka_consumer2](https://github.com/HI-dle/interview-study/blob/main/%ED%99%A9%ED%95%98%EC%98%A8/20250610_kafka_consumer2.md)            | 황하온 |
 
 
 #### [5월 목차 링크](https://github.com/HI-dle/interview-study/blob/main/5%EC%9B%94_%EB%AA%A9%EC%B0%A8.md)
