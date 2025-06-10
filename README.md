@@ -13,7 +13,12 @@
 | 2025.06.06 | [20250606_Blocking vs Non-Blocking,  Sync vs Async](https://github.com/HI-dle/interview-study/blob/main/%EA%B0%95%ED%98%9C%EC%A3%BC/20250606_Blocking%20vs%20Non-Blocking%2C%20%20Sync%20vs%20Async.md) | 강혜주 | 
 | 2025.06.06 | [20250606_HTTP](https://github.com/HI-dle/interview-study/blob/main/%EC%B5%9C%EC%A7%84%EC%98%81/20250606_HTTP.md)                                                                                       | 최진영 |
 | 2025.06.06 | [20250606_Spring](https://github.com/HI-dle/interview-study/blob/main/%ED%95%9C%EC%A7%80%ED%9B%88/20250606_Spring.md)                                                                                   | 한지훈 |
-| 2025.06.06 |                                                                                                                                                                                                         | 황하온 |
+| 2025.06.06 | [20250606_kafka_consumer1](https://github.com/HI-dle/interview-study/blob/main/%ED%99%A9%ED%95%98%EC%98%A8/20250606_kafka_consumer1.md)            | 황하온 |
+| 2025.06.10 |            | 강혜주 |
+| 2025.06.10 |            | 박지은 |
+| 2025.06.10 |            | 최진영 |
+| 2025.06.10 |            | 한지훈 |
+| 2025.06.10 | [20250606_kafka_consumer2](https://github.com/HI-dle/interview-study/blob/main/%ED%99%A9%ED%95%98%EC%98%A8/20250610_kafka_consumer2.md)            | 황하온 |
 
 
 #### [5월 목차 링크](https://github.com/HI-dle/interview-study/blob/main/5%EC%9B%94_%EB%AA%A9%EC%B0%A8.md)
