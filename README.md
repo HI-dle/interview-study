@@ -24,6 +24,11 @@
 | 2025.06.16 | [20250616_Integer_primitive_wrapper](https://github.com/HI-dle/interview-study/blob/main/%EC%B5%9C%EC%A7%84%EC%98%81/20250616_Integer_primitive_wrapper.md)                                             | 최진영 |
 | 2025.06.16 | [20250617_MSA_환경_트랜잭션_관리](https://github.com/HI-dle/interview-study/blob/main/%ED%95%9C%EC%A7%80%ED%9B%88/20250617_MSA_%ED%99%98%EA%B2%BD_%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98_%EA%B4%80%EB%A6%AC.md)   | 한지훈 |
 | 2025.06.16 | [20250616_heap](https://github.com/HI-dle/interview-study/blob/main/%ED%99%A9%ED%95%98%EC%98%A8/20250616_heap.md)                                                                                       | 황하온 |
+| 2025.06.24 |  | 강혜주 |
+| 2025.06.24 |  | 박지은 |
+| 2025.06.24 |  | 최진영 |
+| 2025.06.24 | [20250624_Redis_자료구조](https://github.com/HI-dle/interview-study/blob/main/%ED%95%9C%EC%A7%80%ED%9B%88/20250624_Redis_%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0.md) | 한지훈 |
+| 2025.06.24 |  | 황하온 |
 
 
 #### [5월 목차 링크](https://github.com/HI-dle/interview-study/blob/main/5%EC%9B%94_%EB%AA%A9%EC%B0%A8.md)
