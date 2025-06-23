@@ -26,7 +26,7 @@
 | 2025.06.24 |                                                                                                                                                                                                         | 박지은 |
 | 2025.06.24 |                                                                                                                                                                                                         | 최진영 |
 | 2025.06.24 | [20250624_Redis_자료구조](https://github.com/HI-dle/interview-study/blob/main/%ED%95%9C%EC%A7%80%ED%9B%88/20250624_Redis_%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0.md)                                           | 한지훈 |
-| 2025.06.24 |                                                                                                                                                                                                         | 황하온 |
+| 2025.06.24 | [20250624_Elasticsearch_basic1](https://github.com/HI-dle/interview-study/blob/main/%ED%99%A9%ED%95%98%EC%98%A8/20250624_Elasticsearch_basic1.md)     | 황하온 |
 
 
 #### [5월 목차 링크](https://github.com/HI-dle/interview-study/blob/main/5%EC%9B%94_%EB%AA%A9%EC%B0%A8.md)
