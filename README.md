@@ -23,8 +23,8 @@
 | 2025.06.16  | [20250617_MSA_환경_트랜잭션_관리](https://github.com/HI-dle/interview-study/blob/main/%ED%95%9C%EC%A7%80%ED%9B%88/20250617_MSA_%ED%99%98%EA%B2%BD_%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98_%EA%B4%80%EB%A6%AC.md)   | 한지훈  |
 | 2025.06.16  | [20250616_heap](https://github.com/HI-dle/interview-study/blob/main/%ED%99%A9%ED%95%98%EC%98%A8/20250616_heap.md)                                                                                       | 황하온  |
 | 2025.06.24  | [20250624_CSRF](https://github.com/HI-dle/interview-study/blob/main/%EA%B0%95%ED%98%9C%EC%A3%BC/20250624_CSRF.md)                                                                                       | 강혜주  |
-| 2025.06.24  | [20250624_OSI7계층2](https://github.com/HI-dle/interview-study/blob/main/%EB%B0%95%EC%A7%80%EC%9D%80/20250624_OSI7%EA%B3%84%EC%B8%B52.md)                                                                                                                                                                                    | 박지은  |
-| 2025.06.24  |                                                                                                                                                                                                         | 최진영  |
+| 2025.06.24  | [20250624_OSI7계층2](https://github.com/HI-dle/interview-study/blob/main/%EB%B0%95%EC%A7%80%EC%9D%80/20250624_OSI7%EA%B3%84%EC%B8%B52.md)                                                                 | 박지은  |
+| 2025.06.24  | [20250624_소켓_포트_TCP(https://github.com/HI-dle/interview-study/blob/main/%EC%B5%9C%EC%A7%84%EC%98%81/20250624_%EC%86%8C%EC%BC%93_%ED%8F%AC%ED%8A%B8_TCP.md)                                              | 최진영  |
 | 2025.06.24  | [20250624_Redis_자료구조](https://github.com/HI-dle/interview-study/blob/main/%ED%95%9C%EC%A7%80%ED%9B%88/20250624_Redis_%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0.md)                                           | 한지훈  |
 | 2025.06.24  | [20250624_Elasticsearch_basic1](https://github.com/HI-dle/interview-study/blob/main/%ED%99%A9%ED%95%98%EC%98%A8/20250624_Elasticsearch_basic1.md)                                                       | 황하온  |
 
